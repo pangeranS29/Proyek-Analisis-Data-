@@ -7,8 +7,7 @@ Kami akan mengeksplorasi tren penggunaan sepeda berdasarkan faktor-faktor sepert
 ### 🎯 **Tujuan Analisis**
 1. **Mengetahui pola penyewaan sepeda** berdasarkan waktu (harian, bulanan, dan musim).
 2. **Menganalisis pengaruh faktor cuaca** terhadap jumlah penyewaan sepeda.
-3. **Mengelompokkan pola pengguna** dengan teknik **RFM Analysis** dan **Clustering**.
-4. **Melakukan analisis geospasial** (jika tersedia data lokasi penyewaan).
+
 
 ---
 

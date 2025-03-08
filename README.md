@@ -16,15 +16,10 @@ Kami akan mengeksplorasi tren penggunaan sepeda berdasarkan faktor-faktor sepert
 Sebelum memulai analisis, kita perlu mengimpor semua library yang digunakan dalam proyek ini.
 
 ```python
-import pandas as pd  # Manipulasi data
-import numpy as np  # Operasi numerik
-import seaborn as sns  # Visualisasi data
-import matplotlib.pyplot as plt  # Grafik dan plotting
+import streamlit as st
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
 
-# Analisis Statistik
-from scipy import stats
 
-# Analisis Geospasial
-import geopandas as gpd
-import folium
-from streamlit_folium import folium_static
+## Run  : Streamlit run Dashboard.py

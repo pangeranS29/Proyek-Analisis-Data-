@@ -6,7 +6,10 @@ import seaborn as sns
 
 st.set_page_config(page_title="Dashboard Bike Sharing", layout="wide")
 
-DATA_PATH = "D:/DICODING/submission/data/day.csv"
+# Path relatif ke file dataset
+DATA_PATH = "/workspaces/Proyek-Analisis-Data-/data/day.csv"
+
+# Baca dataset
 day_df = pd.read_csv(DATA_PATH)
 
 

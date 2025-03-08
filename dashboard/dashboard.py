@@ -71,4 +71,4 @@ st.markdown("""
 - **Temperatur dan kelembapan memiliki pengaruh terhadap jumlah penyewaan sepeda**, suhu yang lebih tinggi cenderung meningkatkan jumlah penyewaan.
 """)
 
-
+# Jalankan dengan: streamlit run app.py

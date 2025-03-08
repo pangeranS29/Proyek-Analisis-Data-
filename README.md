@@ -21,4 +21,5 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 
-## Run  : Streamlit run Dashboard.py
+## Run  : cd dulu ke dashboard lalu ketik Streamlit run Dashboard.py
+        

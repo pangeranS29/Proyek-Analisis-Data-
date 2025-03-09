@@ -7,10 +7,10 @@ import seaborn as sns
 st.title("📊 Dashboard Analisis Penyewaan Sepeda 🚲")
 
 # Load dataset dengan metode yang diminta
-day_df = pd.read_csv("clean_day.csv")
+day_df = pd.read_csv("dashboard/clean_day.csv")
 day_df['dteday'] = pd.to_datetime(day_df['dteday'])
 
-hour_df = pd.read_csv("clean_hour.csv")
+hour_df = pd.read_csv("dashborad/clean_hour.csv")
 hour_df['dteday'] = pd.to_datetime(hour_df['dteday'])
 
 # Sidebar untuk filter

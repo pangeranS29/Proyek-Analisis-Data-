@@ -1,3 +1,4 @@
+
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -6,11 +7,13 @@ import seaborn as sns
 # ---- GATHERING DATA ----
 st.title("📊 Dashboard Analisis Penyewaan Sepeda 🚲")
 
+
+
 # Load dataset dengan metode yang diminta
-day_df = pd.read_csv("dashboard/clean_day.csv")
+day_df = pd.read_csv("clean_day.csv")
 day_df['dteday'] = pd.to_datetime(day_df['dteday'])
 
-hour_df = pd.read_csv("dashborad/clean_hour.csv")
+hour_df = pd.read_csv("clean_hour.csv")
 hour_df['dteday'] = pd.to_datetime(hour_df['dteday'])
 
 # Sidebar untuk filter
@@ -74,3 +77,7 @@ with tab1:
 with tab2:
     st.write("Menampilkan 10 data pertama dari `clean_hour.csv`:")
     st.dataframe(hour_df.head(10))
+
+
+# Jalankan dengan: streamlit run dashboard.py
+

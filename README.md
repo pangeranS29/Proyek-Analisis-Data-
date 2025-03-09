@@ -1,12 +1,7 @@
 # 🚲 Dashboard Analisis Penyewaan Sepeda
-
-## 📖 1. Pendahuluan
-Studi kasus ini bertujuan untuk menganalisis tren penyewaan sepeda dengan menggunakan dataset `day.csv`.  
-Kami akan mengeksplorasi tren penggunaan sepeda berdasarkan faktor-faktor seperti **musim**, **cuaca**, **waktu**, dan **kondisi lingkungan**.
-
 ### 🎯 **Tujuan Analisis**
-1. **Mengetahui pola penyewaan sepeda** berdasarkan waktu (harian, bulanan, dan musim).
-2. **Menganalisis pengaruh faktor cuaca** terhadap jumlah penyewaan sepeda.
+1. **MenganalisisPengaruh cuaca terhadap jumlah penyewaan sepeda** 
+2. **Menganalisis Kapan waktu dengan jumlah penyewaan sepeda terbanyak** terhadap jumlah penyewaan sepeda.
 
 
 ---
